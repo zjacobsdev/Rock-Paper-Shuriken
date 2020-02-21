@@ -1,0 +1,150 @@
+*{
+  box-sizing: border-box;
+  /* border: 1px solid blue; */
+
+}
+html{
+  font-size: 10px;
+  font-family: 'Shojumaru', cursive;
+}
+body{
+  /* WIll change bg img to something approiate */
+  background-image: url(../assets/img/bgimg.jpg);
+  text-align: center;
+}
+div:nth-child(1){
+  height: 300px;
+}
+table{
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid black;
+  opacity: 80%;
+  height: 80px;
+  width: 30%;
+  margin-left: 33%;
+  font-size: 2rem;
+}
+h1{
+  color: black;
+  height: 50px;
+  font-size: 4rem;
+}
+p{
+  height: 50px;
+  width: 80%;
+  margin: auto;
+  opacity: 60%;
+  font-size: 2.2rem;
+}
+h2{
+  /* Scoreboard + Choose Wisely */
+  background-color: white;
+  height: 50px;
+  padding-top: 10px;
+  font-size: 2.5rem;
+  border-radius: 10px;
+  opacity: 60%;
+}
+button{
+  height: 80px;
+  width: 8%;
+  border-radius: 10px;
+}
+strong{
+  color: red;
+}
+
+/* Classes */
+.center-sec{
+  height: 125px;
+  width: 50%;
+  margin:20px 25% 20px 25%;
+}
+.center-wisely{
+  width: 50%;
+  margin:9px 25% 20px 25%;
+}
+
+
+/* ids */
+#rock{
+  height: 200px;
+
+}
+#paper {
+  height: 200px;
+  margin-left: 5%;
+
+}
+#scissors{
+  height: 200px;
+  margin-left: 5%;
+}
+#status{
+  height: 50px;
+  font-size: 3rem;
+  margin-top: 35px;
+
+}
+#computerScore{
+  border-left: 2px solid black;
+
+}
+#bot-tag{
+  border-left: 2px solid black;
+}
+/* Phone */
+@media only screen and (max-width:600px){
+  p {
+    margin-top: 60px;
+}
+h2{
+  margin-top: 75px;
+}
+.center-wisely {
+    width: 52%;
+    margin: 9px 25% 20px 25%;
+}
+table {
+  margin-left: 28%;
+}
+.button-center{
+  text-align: left;
+}
+#rock{
+  margin-left:0;
+  height: 150px;
+
+}
+#paper {
+  height: 100px;
+  
+
+}
+#scissors{
+  height: 100px;
+
+}
+}
+/* Tablet */
+@media only screen and (min-width:600px) and (max-width:950px){
+  p {
+    margin-top: 60px;
+}
+h2{
+  margin-top: 75px;
+}
+.center-wisely {
+    width: 52%;
+    margin: 9px 25% 20px 25%;
+}
+table {
+  margin-left: 35%;
+}
+.button-center{
+  text-align: left;
+}
+
+}
+
