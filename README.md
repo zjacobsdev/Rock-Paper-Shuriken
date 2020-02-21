@@ -4,7 +4,7 @@
 
 **Link to project:** https://zahmirjakedev.com/rock_paper_scissors_final/index.html
 
-![](project_img/TODOSITE.JPG)
+![](RPS.PNG)
 
 ## How It's Made:
 
