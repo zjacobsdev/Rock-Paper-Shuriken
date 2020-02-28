@@ -1,4 +1,4 @@
-#  Rock,Paper,Shuriken
+# 📌 Rock,Paper,Shuriken
 
 **Goal:** Create a simple rock, paper, scissors game.
 
